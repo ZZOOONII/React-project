@@ -1,0 +1,36 @@
+.content {
+  /* background-image: url('/img/bg01.png');  */
+  background-size: cover;
+  /* 다른 배경 속성을 필요에 따라 추가할 수 있습니다 */
+}
+
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: lightblue; /* 헤더 배경색 설정 */
+  padding: 20px;
+  color: white;
+}
+
+.section {
+  padding: 50px;
+  color: white;
+}
+
+.footer {
+  background-color: lightblue; /* 푸터 배경색 설정 */
+  padding: 20px;
+  color: white;
+}
+
+/* 각 섹션의 배경 색상을 설정합니다 */
+section:nth-child(odd) {
+  background-color: black;
+}
+
+section:nth-child(even) {
+  background-color: white;
+}
