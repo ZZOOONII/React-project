@@ -1,48 +1,100 @@
 import React from 'react';
-import Header from './components/Header'; // 헤더 컴포넌트
-import Footer from './components/Footer'; // 푸터 컴포넌트
-import './App.css';
-import Section from './components/Section';
-// import section01_img from './section01-1.png';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <header className="header">
+        {/* <a class="logo" href="#home">
+        <img src="https://poiemaweb.com/img/logo.png" height="36px">
+      </a>
+      <nav>
+        <ul className="nav-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav> */}
+      </header>
 
-      <main className="mainContent" backgroundColor="black">
-        <div className="light">
-          <img src="/section01-1.png" alt="blacklight_img" />
+      <section className="main">
+        <div className="imgBox1">
+          <p className="subText1">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever{' '}
+          </p>
         </div>
-        <div className="small-rect1">
-          <img src="/section01-2.png" alt="section01-2" />
+        <div className="imgBox2">
+          <p className="mainText">Louis poulsen</p>
+
+          <p className="subText2">
+            Lorem Ipsum is simply dummy text of the printing{' '}
+          </p>
+
+          <p className="subText3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make{' '}
+          </p>
         </div>
-        <div className="small-rect2">
-          <img src="/section01-3.png" alt="section01-3" />
+      </section>
+
+      <section className="newProduct">
+        <div className="imgBox"></div>
+        <div className="textBox">
+          <p className="mainText1">NEW</p>
+          <p className="subText1">
+            Lorem Ipsum is simply dummy text of the printing{' '}
+          </p>
+
+          <p className="subText2">Lorem Ipsum is simply </p>
+          <p className="subText3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make{' '}
+          </p>
         </div>
-      </main>
+      </section>
 
-      <Section className="mainSection02" backgroundColor="#333333">
-        <img
-          src="/section02-1.png"
-          alt="section02_img"
-          style={{ width: '50%', height: 'auto' }}
-        />
-      </Section>
+      <section className="designer">
+        <div className="imgBox">
+          <p className="subText1">
+            Lorem Ipsum is simply dummy text of the printing{' '}
+          </p>
+        </div>
+        <div className="imgBox"></div>
+        <div className="imgBox"></div>
+        <div className="imgBox"></div>
+        <div className="imgBox"></div>
+        <div className="imgBox"></div>
+      </section>
 
-      <Section backgroundColor="black">3번 섹션</Section>
-      <Section backgroundColor="white">4번 섹션</Section>
-      <Section backgroundColor="black">5번 섹션</Section>
-      <Section backgroundColor="white">6번 섹션</Section>
-      {/*  */}
-      <Section backgroundColor="white">
-        <Page1 />
-      </Section>
-      <Section backgroundColor="white">
-        <Page2 />
-      </Section>
+      <section className="mainSub02">
+        <div className="circle"></div>
+      </section>
 
-      <Footer />
+      <section className="productList">
+        <div className="product-box">
+          <p className="mainText">제품명</p>
+          <p className="priceText">000,000won</p>
+        </div>
+        <div className="product-box"></div>
+        <div className="product-box"></div>
+        <div className="product-box"></div>
+        <div className="product-box"></div>
+        <div className="product-box"></div>
+      </section>
+
+      <section className="mainSub03">
+        <div className="circle"></div>
+        <div className="circle"></div>
+      </section>
+
+      <footer className="footer"></footer>
     </div>
   );
 }
