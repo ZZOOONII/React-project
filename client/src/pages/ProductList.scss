@@ -1,0 +1,45 @@
+$gray: gray;
+$black: black;
+$white: white;
+
+.productList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black; /* 배경색을 블랙으로 설정 */
+}
+
+.container {
+  max-width: 1200px; /* 좌우 여백을 위한 최대 가로 너비 설정 */
+  padding: 0 60px; /* 좌우 여백을 60px로 설정 */
+}
+
+.title {
+  font-size: 80pt;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(33.33% - 20px); /* 3x3 카드 레이아웃 */
+  margin-bottom: 20px;
+  background-color: gray; /* 배경색을 블랙으로 설정 */
+  color: #fff; /* 텍스트 색상을 흰색으로 설정 */
+  // border: 1px solid #ccc;
+  // border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 485px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 24pt;
+}

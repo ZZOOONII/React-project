@@ -1,0 +1,17 @@
+$gray: gray;
+$black: black;
+$white: white;
+
+.mainSub03 {
+  width: 100vw;
+  height: 1080px;
+  background-color: $white;
+  display: flex;
+
+  .circle {
+    width: 645px;
+    height: 645px;
+    background-color: $gray;
+    border-radius: 50%;
+  }
+}

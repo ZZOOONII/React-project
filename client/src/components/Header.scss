@@ -1,0 +1,12 @@
+// 예시 변수 파일 (variables.scss)
+$black: black;
+
+// 스타일 파일 (Header.scss)
+// @import 'variables'; // 변수 파일 가져오기
+
+// 헤더
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: $black;
+}

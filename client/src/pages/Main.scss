@@ -1,0 +1,72 @@
+$gray: gray;
+$black: black;
+$white: white;
+
+// 메인 첫번째 section
+.main {
+  width: 100vw;
+  height: 2400px;
+  background-color: $black;
+
+  .imgBox1 {
+    width: 384px;
+    height: 431px;
+    background-color: $gray;
+    position: absolute;
+    top: 330px;
+    left: 360px;
+
+    .subText1 {
+      width: 349px;
+      height: 191px;
+      font-size: 22px;
+      line-height: 40px;
+      color: $white;
+      position: absolute;
+      top: 111px;
+      left: 300px;
+    }
+  }
+
+  .imgBox2 {
+    width: 586px;
+    height: 564px;
+    background-color: $gray;
+    position: absolute;
+    top: 1610px;
+    left: 770px;
+
+    .mainText {
+      width: 690px;
+      height: 452px;
+      font-size: 200px;
+      line-height: 250px;
+      color: $white;
+      position: absolute;
+      top: -580px;
+      left: -360px;
+    }
+
+    .subText2 {
+      width: 600px;
+      height: 110px;
+      font-size: 40px;
+      line-height: 72px;
+      color: $white;
+      position: absolute;
+      top: 111px;
+      left: -348px;
+    }
+
+    .subText3 {
+      width: 349px;
+      height: 191px;
+      font-size: 22px;
+      line-height: 40px;
+      color: $white;
+      position: absolute;
+      top: 400px;
+      left: 400px;
+    }
+  }
+}

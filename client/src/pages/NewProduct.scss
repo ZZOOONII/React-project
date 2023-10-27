@@ -1,0 +1,55 @@
+$gray: gray;
+$black: black;
+$white: white;
+
+// 메인페이지 신제품소개 section (newProduct)
+.newProduct {
+  width: 100vw;
+  height: 1080px;
+  background-color: #333333;
+  display: flex;
+
+  .imgBox {
+    width: 50%;
+    height: 100%;
+    background-color: #cccbc7;
+  }
+
+  .textBox {
+    width: 50%;
+    height: 100%;
+
+    .mainText1 {
+      position: relative;
+      top: 200px;
+      left: 200px;
+      font-size: 100px;
+      color: $white;
+    }
+
+    .subText1 {
+      position: relative;
+      top: 175px;
+      left: 200px;
+      font-size: 32px;
+      color: #656565;
+    }
+
+    .subText2 {
+      position: relative;
+      top: 400px;
+      left: 200px;
+      font-size: 30px;
+      font-weight: bold;
+      color: #656565;
+    }
+
+    .subText3 {
+      position: relative;
+      top: 400px;
+      left: 200px;
+      font-size: 18px;
+      color: #656565;
+    }
+  }
+}
